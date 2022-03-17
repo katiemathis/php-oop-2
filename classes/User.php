@@ -33,4 +33,13 @@ class User {
         return $this->email;
     }
 
+    public function setDiscount() {
+        if ($this->registered = false) {
+            $this->discount = 0;
+        }
+
+        else $this->discount = 20;
+    }
+
+
 } 
